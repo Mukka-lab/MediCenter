@@ -1,0 +1,621 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+/* HEADER */
+
+header{
+
+    display: flex;
+    justify-content: center;
+    height: 120px;
+}
+
+.container{
+
+    width: 990px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+
+    display: flex;
+    align-items: center;
+}
+
+.menu-header{
+
+    display: flex;
+    align-items: center;
+}
+
+.menu-mobile{
+
+    display: none;
+    width: 40px;
+    height: 40px;
+    margin: 40px 0;
+    margin-right: 20px;
+}
+
+.menu-mobile-line{
+
+    height: 2px;
+    background-color: #00ABE4;
+}
+
+nav ul{
+
+    display: flex;
+    list-style: none;
+}
+
+nav li{
+
+    padding: 15px;
+}
+
+nav a{
+
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+}
+
+nav li:hover, nav a:hover{
+
+    border-radius: 5px;
+    background-color: #00ABE4;
+    color: white;
+}
+
+
+
+/* ================================== */
+/* BANNER */
+/* ================================== */
+
+#banner{
+
+    background-image: url(../images/img1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 670px;
+    display: flex;
+    justify-content: center;
+}
+
+.column{
+
+    flex-direction: column;
+}
+
+.banner-headline{
+
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.banner-headline h2{
+
+    margin-bottom: 20px;
+    font-size: 40px;
+    text-shadow: 2px 2px black;
+}
+
+.banner-headline p{
+
+    font-size: 20px;
+    text-shadow: 1px 1px black;
+    max-width: 300px;
+}
+
+.banner-headline h2, .banner-headline p{
+
+    color: white;
+}
+
+
+.banner-options{
+
+    min-height: 210px;
+    display: flex;
+}
+
+.option-1, .option-2, .option-3{
+
+    flex: 1;
+    padding: 20px;
+}
+
+.option-1{
+
+    border-top-left-radius: 10px;
+    background-color: #39aae1;
+}
+
+.option-2{
+
+    background-color: #0079c7;
+}
+
+.option-3{
+
+    border-top-right-radius: 10px;
+    background-color: #2b4c99;
+}
+
+
+.option-1 h2, .option-2 h2, .option-3 h2{
+
+    color: white;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.option-1 p, .option-2 p, .option-3 p{
+
+    color: white;
+    font-size: 15px;
+}
+
+.option-1 a, .option-2 a, .option-3 a{
+
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+.option-1 button, .option-2 button, .option-3 button{
+
+    align-items: baseline;
+    padding: 10px;
+    margin-top: 40px;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: #6CA8CC;
+    cursor: pointer;
+}
+
+.option-1 button:hover, .option-2 button:hover, .option-3 button:hover{
+
+    background-color: #468ebb;
+}
+
+
+
+/* ================================== */
+/* NEWS */
+/* ================================== */
+
+#news{
+
+    display: flex;
+    justify-content: center;
+}
+
+
+.section-news{
+    
+    flex: 2;
+}
+
+.departaments{
+
+    flex: 1;
+}
+
+.widget-title{
+
+    margin: 20px 0;
+}
+
+.widget-title-text{
+
+    font-size: 20px;
+    color: black;
+}
+
+.widget-title-bar{
+
+    height: 2px;
+    width: 40px;
+    background-color: #00ABE4;
+}
+
+
+/* ================================== */
+/* DEPARTAMENTS */
+/* ================================== */
+
+.departaments-options{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.dp-option-1, .dp-option-2, .dp-option-3, .dp-option-4, .dp-option-5, .dp-option-6{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    margin: 8px;
+    border-radius: 4px;
+    background-color: #00ABE4;
+}
+
+.title-departament{
+
+    margin: 4px auto;
+    font-size: 15px;
+    color: white;
+}
+
+
+.widget-body p{
+
+    font-size: 15px;
+    margin-bottom: 20px;
+    padding: 15px 0;
+}
+
+
+.informations{
+
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.news-data{
+
+    display: flex;
+}
+
+.news-posted-at{
+
+    padding: 10px;
+    margin-right: 5px;
+    font-size: 12;
+    background-color: #2b4c99;
+    color: white;
+}
+
+.news-comments{
+
+    padding: 10px;
+    font-size: 12;
+    background-color: #39aae1;
+    color: white;
+}
+
+.flex{
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+article {
+
+    flex: 1;
+    min-width: 300px;
+    margin-right: 20px;
+}
+
+article .news-thumbnail{
+
+    margin-top: 30px;
+}
+
+article .news-thumbnail img{
+
+    width: 100%;
+    height: auto;
+}
+
+article .news-title{
+
+    margin: 25px 0;
+}
+
+article .news-title h3{
+
+    font-size: 20px;
+    color: black;
+}
+
+article .news-desc{
+
+    font-size: 15px;
+    line-height: 20px;
+    margin-bottom: 30px;
+    color: black;
+}
+
+article a{
+
+    text-decoration: none;
+    color: black;
+}
+
+
+
+/* ================================== */
+/* FOOTER */
+/* ================================== */
+
+
+footer{
+
+    background-color: #1e1e1e;
+    display: flex;
+    justify-content: center;
+}
+
+
+.footer-options{
+
+    display: flex;
+    flex: 1;
+}
+
+.footer-option1, .footer-option2, .footer-option3{
+
+    flex: 1;
+    color: white;
+    padding: 20px;
+}
+
+.footer-option1{
+
+    background-color: #39aae1;
+    border-bottom-left-radius: 10px;
+}
+
+.footer-option2{
+
+    background-color: #0079c7;
+}
+
+.footer-option3{
+
+    background-color: #2b4c99;
+    border-bottom-right-radius: 10px;
+}
+
+.footer-area{
+
+    display: flex;
+}
+
+.footer-area-item{
+
+    flex: 1;
+    color: white;
+}
+
+.flex-column{
+
+    flex-direction: column;
+}
+
+footer .widget-title-text{
+
+    color: white;
+}
+
+.footer-options a{
+
+    text-decoration: none;
+}
+
+.footer-option1 h2, .footer-option2 h2, .footer-option3 h2{
+
+    color: white;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.footer-option1 p, .footer-option2 p, .footer-option3 p{
+
+    color: white;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+
+.medicenter-info{
+
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.medicenter-info p{
+
+    margin: 5px 0;
+    padding: 0;
+    border-bottom: 1px solid grey;
+}
+
+.footer-option-desc{
+
+    max-width: 250px;
+}
+
+.info2{
+
+    margin-right: 20px;
+}
+
+
+.option-comment p{
+
+    padding: 0;
+    margin: 0;
+    margin-top: 15px;
+}
+
+.option-comment a{
+
+    padding: 0;
+    margin: 0;
+    font-size: 12px;
+    color: #00ABE4;
+}
+
+/* COPYRIGHT */
+
+
+.footer-copyright{
+
+    border-top: 2px solid grey;
+    padding: 15px;
+    margin-top: 50px;
+    color: white;
+}
+
+
+
+/* ================================== */
+/* RESPONSIVE */
+/* ================================== */
+
+
+@media(max-width:600px){
+
+    /* ================== */
+
+
+    .logo{
+
+        margin-left: 20px;
+    }
+
+    .menu-header nav ul{
+
+        flex-direction: column;
+        display: none;
+    }
+
+    .menu-mobile{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    nav ul{
+
+        flex-direction: column;
+        display: none;
+        position: absolute;
+        left: 0;
+        width: 100%;
+        background-color: white;
+    }
+
+    header {
+        height: auto;
+    }
+
+    /* ================== */
+
+    .banner-headline{
+
+        margin: 20px 0;
+    }
+
+    #banner {
+
+        min-height: 670px;
+    }
+
+    .banner-options{
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    .option-1 {
+
+        background-color: #39aae1;
+        border-top-left-radius: 0;
+    }
+
+    .option-3 {
+
+        background-color: #2b4c99;
+        border-top-left-radius: 0;
+    }
+
+
+    /* ================== */
+
+    #news{
+
+        margin-top: 100px;
+    }
+
+    #news .container{
+
+        flex-direction: column;
+    }
+
+    #news article{
+
+        padding: 20px;
+    }
+
+    article .news-title {
+        margin: 10px 0;
+    }
+
+    .widget-title{
+
+        padding: 10px;
+    }
+
+    .widget-title {
+        margin: 10px 0;
+    }
+
+    /* ================== */
+
+
+    .footer-options {
+
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+    }
+
+    .footer-option1 {
+
+        background-color: #39aae1;
+        border-bottom-left-radius: 0;
+    }
+
+    .footer-option3 {
+
+        background-color: #2b4c99;
+        border-bottom-left-radius: 0;
+    }
+
+    .footer-area .widget-body p{
+
+        padding: 10px;
+    }
+}

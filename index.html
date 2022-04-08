@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/style/style.css">
+
+    <script type="text/javascript">
+        window.onload = function(){
+
+            document.querySelector(".menu-mobile").addEventListener("click", function(){
+
+                if(document.querySelector(".menu-header nav ul").style.display == 'flex'){
+                    document.querySelector(".menu-header nav ul").style.display = 'none'
+                } else {
+
+                    document.querySelector(".menu-header nav ul").style.display = 'flex'
+                }
+            });
+        };
+    </script>
+
+    <title>MediCenter</title>
+</head>
+<body>
+    
+
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="#"><img src="assets/images/logo.png" alt="logo"></a>
+            </div>
+            <div class="menu-header">
+                <nav>
+                    <div class="menu-mobile">
+                        <div class="menu-mobile-line"></div>
+                        <div class="menu-mobile-line"></div>
+                        <div class="menu-mobile-line"></div>
+                    </div>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Plans</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+
+    <section id="banner">
+        <div class="container column">
+            <div class="banner-headline">
+                <h2>Lorem ipsum</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt incidunt maxime est rem a, in hic repudiandae, porro voluptates quidem ut veniam eligendi.</p>
+            </div>
+
+            <div class="banner-options">
+                <div class="option-1">
+                    <h2>Lorem ipsum</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <button><a href="#">Read more</a></button>
+                </div>
+                <div class="option-2">
+                    <h2>Lorem ipsum</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <button><a href="#">Read more</a></button>
+                </div>
+                <div class="option-3">
+                    <h2>Lorem ipsum</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <button><a href="#">Read more</a></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <main id="news">
+        <div class="container">
+            <section class="section-news">
+                <div class="widget">
+                    <div class="widget-title">
+                        <h2 class="widget-title-text">Latest News</h2>
+                        <div class="widget-title-bar"></div>
+                    </div>
+                    <div class="widget-body flex">
+                        <article>
+                            <a href="#">
+                                <div class="news-data">
+                                    <div class="news-posted-at">
+                                        21 JAN 12
+                                    </div>
+                                    <div class="news-comments">
+                                        6
+                                    </div>
+                                </div>
+                                <div class="news-thumbnail">
+                                    <img src="assets/images/dr.png" alt="doctor-picture">
+                                </div>
+                                <h3 class="news-title">Lorem ipsum</h3>
+                                <div class="news-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit sequi magnam odio maxime.</div>
+                            </a>
+                        </article>
+
+                        <article>
+                            <a href="#">
+                                <div class="news-data">
+                                    <div class="news-posted-at">
+                                        21 JAN 12
+                                    </div>
+                                    <div class="news-comments">
+                                        6
+                                    </div>
+                                </div>
+                                <div class="news-thumbnail">
+                                    <img src="assets/images/dr.png" alt="doctor-picture">
+                                </div>
+                                <h3 class="news-title">Lorem ipsum</h3>
+                                <div class="news-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit sequi magnam odio maxime.</div>
+                            </a>
+                        </article>
+
+                        <article>
+                            <a href="#">
+                                <div class="news-data">
+                                    <div class="news-posted-at">
+                                        21 JAN 12
+                                    </div>
+                                    <div class="news-comments">
+                                        6
+                                    </div>
+                                </div>
+                                <div class="news-thumbnail">
+                                    <img src="assets/images/dr.png" alt="doctor-picture">
+                                </div>
+                                <h3 class="news-title">Lorem ipsum</h3>
+                                <div class="news-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit sequi magnam odio maxime.</div>
+                            </a>
+                        </article>
+
+                        <article>
+                            <a href="#">
+                                <div class="news-data">
+                                    <div class="news-posted-at">
+                                        21 JAN 12
+                                    </div>
+                                    <div class="news-comments">
+                                        6
+                                    </div>
+                                </div>
+                                <div class="news-thumbnail">
+                                    <img src="assets/images/dr.png" alt="doctor-picture">
+                                </div>
+                                <h3 class="news-title">Lorem ipsum</h3>
+                                <div class="news-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit sequi magnam odio maxime.</div>
+                            </a>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+            <aside class="departaments">
+                <div class="widget">
+                    <div class="widget-title">
+                        <h2 class="widget-title-text">Departaments</h2>
+                        <div class="widget-title-bar"></div>
+                    </div>
+                    <div class="widget-body">
+                        <div class="departaments-options">
+
+                            <div class="dp-option-1">
+                                <h3 class="title-departament">Cardiology</h3>
+                            </div>
+
+                            <div class="dp-option-2">
+                                <h3 class="title-departament">Dermatology</h3>
+                            </div>
+
+                            <div class="dp-option-3">
+                                <h3 class="title-departament">Gynecology</h3>
+                            </div>
+
+                            <div class="dp-option-4">
+                                <h3 class="title-departament">Urology</h3>
+                            </div>
+
+                            <div class="dp-option-5">
+                                <h3 class="title-departament">Orthopedics</h3>
+                            </div>
+
+                            <div class="dp-option-6">
+                                <h3 class="title-departament">Pediatrics</h3>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="widget-title">
+                        <h2 class="widget-title-text">Make An Appointment</h2>
+                        <div class="widget-title-bar"></div>
+                    </div>
+                    <div class="widget-body">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet laboriosam eum.</p>
+                        <p class="informations">Phone: <a href="#">+1-202-555-0151</a></p>
+                        <p class="informations">E-mail: <a href="#">appointment@medicenter.com</a></p>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </main>
+
+
+    <footer>
+        <div class="container flex-column">
+            <div class="footer-options">
+                <div class="footer-option1">
+                    <a href="#">
+                        <h2>Health Insurance</h2>
+                        <p>Here in MediCenter we have individual</p>
+                    </a>
+                </div>
+                <div class="footer-option2">
+                    <a href="#">
+                        <h2>Medical Records</h2>
+                        <p>Here in MediCenter we have individual</p>
+                    </a>
+                </div>
+                <div class="footer-option3">
+                    <a href="#">
+                        <h2>Online Bill Pay</h2>
+                        <p>Here in MediCenter we have individual</p>
+                    </a>
+                </div>
+            </div>
+
+            <div class="footer-area">
+                <div class="footer-area-item">
+                    <div class="widget">
+                        <div class="widget-title">
+                            <h2 class="widget-title-text">MediCenter Clinic</h2>
+                            <div class="widget-title-bar"></div>
+                        </div>
+                        <div class="widget-body">
+                            <p class="footer-option-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi perspiciatis ipsa ullam molestias doloribus odio recusandae ad.</p>
+                            <div class="medicenter-info">
+                                <div class="info1">
+                                    <p>Adress:</p>
+                                    <p>Phone:</p>
+                                    <p>E-mail:</p>
+                                </div>
+                                <div class="info2">
+                                    <p>2564 Marmion Oaks, Queens</p>
+                                    <p>+1-202-555-0151</p>
+                                    <p>contact@medicenter.com</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer-area-item">
+                    <div class="widget">
+                        <div class="widget-title">
+                            <h2 class="widget-title-text">Latest Posts</h2>
+                            <div class="widget-title-bar"></div>
+                        </div>
+                        <div class="widget-body">
+                            <div class="option-comment">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati nulla non eveniet aspernatur nisi.</p>
+                                <a href="#">8 days ago</a>
+                            </div>
+                            <div class="option-comment">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                <a href="#">12 days ago</a>
+                            </div>
+                            <div class="option-comment">
+                                <p>Lorem ipsum dolor sit amet consectetur.</p>
+                                <a href="#">16 days ago</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer-area-item">
+                    <div class="widget">
+                        <div class="widget-title">
+                            <h2 class="widget-title-text">Latest Tweets</h2>
+                            <div class="widget-title-bar"></div>
+                        </div>
+                        <div class="widget-body">
+                            <div class="option-comment">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati nulla non eveniet aspernatur nisi.</p>
+                                <a href="#">2 days ago</a>
+                            </div>
+                            <div class="option-comment">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati nulla non eveniet aspernatur nisi.</p>
+                                <a href="#">5 days ago</a>
+                            </div>
+                            <div class="option-comment">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati nulla non eveniet aspernatur nisi.</p>
+                                <a href="#">6 days ago</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-copyright">
+                <p>Copyright - Todos os direitos reservados</p>
+            </div>
+
+        </div>
+    </footer>
+
+
+</body>
+</html>
